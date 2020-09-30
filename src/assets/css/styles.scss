@@ -1,0 +1,42 @@
+@import "fonts.scss";
+@import "~normalize.css";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.search-box {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 10;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.map__input {
+    padding: 8px 15px;
+    width: 200px;
+    height: 20px;
+}
+
+.map__button {
+    height: 20px;
+    padding: 8px 15px;
+    margin-left: 8px;
+    box-sizing: content-box;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
