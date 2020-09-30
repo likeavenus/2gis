@@ -47,10 +47,6 @@ export const renderMap = () => {
             }
             
         })
-
-        map.on('trafficscore', () => {
-            console.log('trafficscore')
-        })
      
     }
      
